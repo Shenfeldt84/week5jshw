@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comments</title>
+    <link rel="stylesheet" href="./style/normalize.css" type="normalize/css" />
+    <link rel="stylesheet" href="./style/style.css" type="text/css" />
+  </head>
+  <body class="body">
+    <section class="comments">
+      <h1 class="comments__title">Сервис комментариев</h1>
+      <div class="comments__wrapper">
+        <form class="comments__form">
+          <h2 class="comments__form-title">Оставьте ваш комментарий</h2>
+          <label class="comments__name" for="name"
+            ><h3>Введите ваше Имя:</h3></label
+          >
+          <input type="text" name="name" id="name" required />
+          <div class="comment__time-last"></div>
+          <label class="comments__avatar" for="avatar"
+            ><h3>Введите ссылку вашего аватара:</h3></label
+          >
+          <input type="url" name="avatar" id="avatar" />
+          <label class="comments__comments" for="comments"
+            ><h3>Оставьте комментарий:</h3></label
+          >
+          <textarea
+            name="comments"
+            id="comments"
+            cols="40"
+            rows="20"
+          ></textarea>
+          <input id="button" type="button" value="Отправить" />
+        </form>
+        <div class="comments__chat">
+          <h2 class="comments__chat-title">Чат</h2>
+        </div>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>

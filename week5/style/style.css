@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  max-width: 1600px;
+  width: 100%;
+}
+
+.service__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.service__title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.service__form-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  color: #4710df;
+}
+
+.service__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.service__radio {
+  margin-top: -10%;
+  margin-bottom: -10%;
+}
+
+input {
+  height: 10%;
+}
+
+#show-yes,
+#show-no {
+  width: 15%;
+  height: 25%;
+  margin: 10%;
+}
+
+.service__chat {
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+}
+
+.service__chat-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  color: #4710df;
+}
+
+.img__size {
+  width: 300px;
+  padding: 5%;
+}
+
+#button {
+  margin-bottom: 5%;
+}
+
+.username {
+  color: #4710df;
+  font-size: 24px;
+}
+
+.chat__date {
+  border-bottom: 3px dashed #4710df;
+}
